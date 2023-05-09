@@ -5,4 +5,4 @@
 Python 3.6 или выше
 Виртуальное окружение (можно создать с помощью python -m venv venv)
 Библиотеки из requirements.txt (установить с помощью pip install -r requirements.txt)
-Docker Desktop (установить с официального сайта: https://www.docker.com/products/docker-desktop)
+Docker Desktop (установить с официального сайта: https://www.docker.com/products/docker-desktop)git 

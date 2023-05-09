@@ -1,6 +1,8 @@
+import pytest
 import requests
 
 
+# Проверка доступа страницы, css-селекторов и текста
 def test_gitea_page():
     url = "http://localhost:3000/"
     expected_selectors = ["ui container", "center", "left-links"]
