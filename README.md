@@ -38,7 +38,7 @@ Docker Desktop (установить с официального сайта: htt
     pip install -r requirements.txt
     pip install docker --upgrade
 
-4.Соберите Docker-образ и запустите контейнер с помощью следующей команды:
+4. Соберите Docker-образ и запустите контейнер с помощью следующей команды:
 
     docker build -t pytest .
 
