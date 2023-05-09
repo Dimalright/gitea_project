@@ -48,8 +48,6 @@ def test_gitea_setup(gitea_container, gitea_url):
     assert gitea_url == "http://localhost:3000/"
     time.sleep(5)
 
-# Надстройка Gitea через Chrome
-
 
 def test_gitea_installation(gitea_url):
     driver = webdriver.Chrome()
@@ -60,10 +58,6 @@ def test_gitea_installation(gitea_url):
     )
     install_button.click()
     time.sleep(12)
-
-
-# Проверка доступа страницы, css-селекторов и текста
-time.sleep(10)
 
 
 def test_gitea_page(gitea_url, expected_selectors, expected_text):
