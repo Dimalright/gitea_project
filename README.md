@@ -32,7 +32,7 @@ Docker Desktop (установить с официального сайта: htt
 
     python -m venv venv
 
-    source venv/Script/activate
+    source venv/scripts/activate
 3. Установите необходимые библиотеки, обновить Docker, выполнив команды:
 
     pip install -r requirements.txt
